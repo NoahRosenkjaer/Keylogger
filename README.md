@@ -1,5 +1,5 @@
 # Keylogger
-This is a keylogger that uses the keyboard library in python to record keystrokes, on the target computer. When "enter" is pressed a string is sent to the server.
+This is a keylogger that uses the [keyboard](https://pypi.org/project/keyboard/) library in python to record keystrokes, on the target computer. When "enter" is pressed a string is sent to the server, usinf socket.
 
 NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 
