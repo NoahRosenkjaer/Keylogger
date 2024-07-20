@@ -36,4 +36,4 @@ NOTE 2: keylogger.py only works on Windows and Linux
 ## Known bugs
 - Some characters is sent as lowercase instead as uppercase
   - Spesifically: a, d, m, n, p, t, æ, ø, å
-- When the client uses backspace the deleted characters is still sent to the server
+- When the client uses backspace the deleted characters is still sent to the server (Maybe not bug but feature?)
