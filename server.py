@@ -1,4 +1,6 @@
 import socket
+import subprocess
+import sys
 
 def bind_socket(host, port, s):
     print("Binding port: " + str(port))
@@ -19,6 +21,8 @@ def receive(conn):
     while True:
         response = str(conn.recv(1024), "utf-8")
         print(response, end="")
+        with open("data.txt", "a")as file:
+            file.write(str(response))
 
 def main():
     host = ""
