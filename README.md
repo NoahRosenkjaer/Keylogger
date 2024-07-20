@@ -8,7 +8,7 @@ NOTE 2: client-keylogger.py only work on Windows and Linux
 
 ##### Linux
 
-  ´´´sudo pip install keyboard´´´
+  ```sudo pip install keyboard```
 
 ## Testing
 - Works via local host (127.0.0.1)
