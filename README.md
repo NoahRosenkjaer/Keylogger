@@ -1,19 +1,36 @@
 # Keylogger
 This is a keylogger that uses the keyboard library in python to record keystrokes, on the target computer. When "enter" is pressed a string is sent to the server.
 
-NOTE 1: client-keylogger.py must be run as su/Administrator or with sudo privliges.
-NOTE 2: client-keylogger.py only work on Windows and Linux
+NOTE 1: client-keylogger.py must be run as su or with sudo privliges on linux.
+NOTE 2: client-keylogger.py only works on Windows and Linux
 
 ## Installation
 
-##### Linux
+#### Linux
 
   ```sudo pip install keyboard```
 
+#### Windows
+
+  ```pip install keyboard``
+
+## Furture features
+- Saving output
+  - Save to file
+    - .txt
+    - .json
+  - Save to database
+    - MongoDB
+    - MySQL
+
 ## Testing
 - Works via local host (127.0.0.1)
-- Target tested on Xubuntu-24-04 (Ubuntu based)
-  - sudo was needed for security.
+- Linux
+  - Target tested on Xubuntu-24-04 (Ubuntu based)
+    - sudo was needed for security.
+- Windows
+  - Target tested on Windows 11
+    - Admin privliges was not needed so windows is less safe!
 
 ## Known bugs
 - Some characters is sent as lowercase instead as uppercase
