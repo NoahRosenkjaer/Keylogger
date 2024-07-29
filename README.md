@@ -6,16 +6,14 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 ## Installation
 
 #### Linux
-
-  ```sudo pip install keyboard```
-
-  ```pip install pymongo```
+###### keylogger.py
+```sudo pip install keyboard```
+```pip install pymongo```
 
 #### Windows
 
-  ```pip install keyboard```
-
-  ```pip install pymongo```
+```pip install keyboard```
+```pip install pymongo```
 
 ## Future features
 - Saving output
