@@ -34,3 +34,8 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 - Some characters is sent as lowercase instead as uppercase
   - Spesifically: a, d, m, n, p, t, æ, ø, å
 - When the client uses backspace the deleted characters is still sent to the server (Maybe not bug but feature?)
+
+## Thoughts
+- Maybe the roles should be reversed to the keylogger is the server and the server becomes the client?
+  - This would make it more use full in a real world senario, where the attacker connects to the target any time they want to look at what the target is typing.
+  - Right now the target connects to the attacker.
