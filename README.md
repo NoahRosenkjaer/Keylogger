@@ -17,7 +17,6 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 - Saving output
   - Save to file
     - ~~.txt~~
-    - .json
   - Save to database
     - MongoDB
     - MySQL

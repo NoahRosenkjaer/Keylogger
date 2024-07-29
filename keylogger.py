@@ -2,7 +2,7 @@
 import keyboard
 import socket
 from time import sleep
-# Must be run with sudo or as su
+# Must be run with sudo or as su on linux
 
 def client():
     s = socket.socket()
