@@ -28,7 +28,7 @@ def receive(conn, save_type):
         response = str(conn.recv(1024), "utf-8")
         print(response, end="")
         if response == '':
-            pass
+            continue
         else:
             match save_type:
                 case '':
