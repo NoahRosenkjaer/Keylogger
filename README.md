@@ -19,6 +19,7 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
     - ~~.txt~~
   - Save to database
     - ~~MongoDB (Using a docker instance)~~
+      - Make it a Time-Series Database (Use datetime)
     - MySQL
 
 ## Testing
