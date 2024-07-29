@@ -13,7 +13,7 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 
   ```pip install keyboard```
 
-## Furture features
+## Future features
 - Saving output
   - Save to file
     - ~~.txt~~
