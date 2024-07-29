@@ -16,4 +16,4 @@ sensor_data = {
     "pressure": 1011.4,
     "timestamp": datetime.now().isoformat() # ISO date
 }
-result = dataB[1].insert_one(sensor_data)
+dataB[1].insert_one(sensor_data)
