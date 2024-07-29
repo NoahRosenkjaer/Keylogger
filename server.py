@@ -1,6 +1,5 @@
 import socket
-import subprocess
-import sys
+
 
 def bind_socket(host, port, s):
     print("Binding port: " + str(port))
