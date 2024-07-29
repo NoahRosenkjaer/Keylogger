@@ -8,11 +8,13 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 #### Linux
 ###### keylogger.py
 ```sudo pip install keyboard```
+###### server.py
 ```pip install pymongo```
 
 #### Windows
-
+###### keylogger.py
 ```pip install keyboard```
+###### server.py
 ```pip install pymongo```
 
 ## Future features
