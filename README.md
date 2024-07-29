@@ -9,9 +9,13 @@ NOTE 1: keylogger.py must be run as su or with sudo privliges on linux.
 
   ```sudo pip install keyboard```
 
+  ```pip install pymongo```
+
 #### Windows
 
   ```pip install keyboard```
+
+  ```pip install pymongo```
 
 ## Future features
 - Saving output
